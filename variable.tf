@@ -47,3 +47,8 @@ variable "repo_name" {
   description = "The name of the repository to be created"
   default     = "sample-ecr" // Replace with your desired repository name
 }
+
+
+variable "vpc_id" {
+  type = string
+}
