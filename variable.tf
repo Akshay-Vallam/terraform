@@ -48,13 +48,8 @@ variable "repo_name" {
   default     = "sample-ecr" // Replace with your desired repository name
 }
 
-
-variable "aws_security_group" {
-  type = "new-sec-group"
-}
-
 variable "vpc_id" {
-  type = string
+  type = "new-vpc"
 }
 
 
