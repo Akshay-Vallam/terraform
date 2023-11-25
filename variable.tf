@@ -49,7 +49,7 @@ variable "repo_name" {
 }
 
 variable "vpc_id" {
-  type = "new-vpc"
+  default = "new-vpc"
 }
 
 
